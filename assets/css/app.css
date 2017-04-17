@@ -1,0 +1,80 @@
+body{
+  /*box-sizing: content-box;*/
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1d1a05;
+}
+.content {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 30px;
+}
+nav{
+  z-index: 1;
+  background-color: #ca3c25;
+  box-sizing: border-box;
+  position: fixed;
+  padding-left:21%;
+  width: 100%;
+}
+nav ul > li{
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+}
+nav ul li > a{
+  color: white;
+}
+nav ul li > a:hover{
+  background-color: white;
+  color: #ca3c25;
+}
+div.box-imgs{
+  padding-top: 72px;
+  /*text-align: center;*/
+}
+figure {
+  width: 210px;
+  height: 200px;
+  /*position: absolute;*/
+  display: inline-block;
+}
+figure img{
+  /*text-align: left;*/
+  width: 100%;
+  height: 100%;
+  filter: grayscale();
+  border: solid 5px grey;
+}
+figure > span {
+  position: relative;
+  top: -190px;
+  right: -15px;
+  color: white;
+}
+figure > span:hover{
+  background-color: white;
+  color: #36F12F;
+}
+.box-option span{
+  display: inline-block;
+  background-color: #ca3c25;
+  padding: 5px;
+  width: 30%;
+  color: white;
+}
+.box-info{
+  color: white;
+  width: 40%;
+  display: inline-block;
+  text-align: justify ;
+  padding: 2%;
+}
+.displayNone{
+  display: none;
+}
+.visibilityHidden{
+  visibility: hidden;
+}
