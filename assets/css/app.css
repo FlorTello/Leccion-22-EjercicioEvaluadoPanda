@@ -1,5 +1,9 @@
+script{
+  display: none;
+}
 body{
   /*box-sizing: content-box;*/
+  color: #E8E8B0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -7,8 +11,8 @@ body{
 }
 .content {
   width: 80%;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 15%;
+  margin-left: 15%;
   padding-bottom: 30px;
 }
 nav{
@@ -16,7 +20,7 @@ nav{
   background-color: #ca3c25;
   box-sizing: border-box;
   position: fixed;
-  padding-left:21%;
+  padding-left:14%;
   width: 100%;
 }
 nav ul > li{
@@ -25,7 +29,7 @@ nav ul > li{
   padding: 10px;
 }
 nav ul li > a{
-  color: white;
+  color: #E8E8B0;
 }
 nav ul li > a:hover{
   background-color: white;
@@ -38,35 +42,31 @@ div.box-imgs{
 figure {
   width: 210px;
   height: 200px;
-  /*position: absolute;*/
+  margin-left: 0;
   display: inline-block;
 }
 figure img{
-  /*text-align: left;*/
   width: 100%;
   height: 100%;
   filter: grayscale();
   border: solid 5px grey;
 }
 figure > span {
+  font-weight: bold;
   position: relative;
   top: -190px;
   right: -15px;
-  color: white;
+  /*color: white;*/
 }
-figure > span:hover{
-  background-color: white;
-  color: #36F12F;
-}
+
 .box-option span{
   display: inline-block;
   background-color: #ca3c25;
   padding: 5px;
   width: 30%;
-  color: white;
+  /*color: white;*/
 }
 .box-info{
-  color: white;
   width: 40%;
   display: inline-block;
   text-align: justify ;
