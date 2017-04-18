@@ -12,7 +12,7 @@ body{
 .content {
   width: 80%;
   margin-right: 15%;
-  margin-left: 15%;
+  margin-left: 12%;
   padding-bottom: 30px;
 }
 nav{
@@ -20,7 +20,7 @@ nav{
   background-color: #ca3c25;
   box-sizing: border-box;
   position: fixed;
-  padding-left:14%;
+  padding-left:12%;
   width: 100%;
 }
 nav ul > li{
@@ -36,12 +36,11 @@ nav ul li > a:hover{
   color: #ca3c25;
 }
 div.box-imgs{
-  padding-top: 72px;
-  /*text-align: center;*/
+  padding: 72px 2% 0 2%;
 }
 figure {
-  width: 210px;
-  height: 200px;
+  width: 180px;
+  height: 170px;
   margin-left: 0;
   display: inline-block;
 }
@@ -54,23 +53,31 @@ figure img{
 figure > span {
   font-weight: bold;
   position: relative;
-  top: -190px;
+  bottom: 170px;
   right: -15px;
   /*color: white;*/
 }
-
+.box-option{
+  padding: 2% 2% 0 2%;
+}
 .box-option span{
   display: inline-block;
   background-color: #ca3c25;
   padding: 5px;
-  width: 30%;
-  /*color: white;*/
+  width: 28%;
+  border: solid 1px transparent;
+  font-size: 1.2rem;
+  text-align: center;
 }
-.box-info{
-  width: 40%;
+.box-option span:active{
+  border: solid 1px white;
+}
+.box-info {
+  width: 45%;
   display: inline-block;
   text-align: justify ;
-  padding: 2%;
+  padding: 2% 21px 2% 10px;
+
 }
 .displayNone{
   display: none;
