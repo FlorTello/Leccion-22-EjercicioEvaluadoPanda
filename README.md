@@ -20,7 +20,7 @@ Para  ejecutar la pagina Web necesita acceder al siguiente link
 * Mostrar y desaparecer la historia cuando se preciona el boton "Hitoria"
 * Mostrar y desaparecer el origen cuando se preciona el boton "Hitoria"
 ### 4. Elaboración 
-   ### Css
+   ### * Css
    ```css
       .displayNone{
         display: none;
@@ -29,6 +29,7 @@ Para  ejecutar la pagina Web necesita acceder al siguiente link
         visibility: hidden;
       }
   ```
+   ### * JavaScript
   ##### Para eliminar las imagenes se utilizo la siguiente función
   
   ```javascript
